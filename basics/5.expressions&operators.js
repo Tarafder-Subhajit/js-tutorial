@@ -1,1 +1,1 @@
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
+// https://www.w3schools.com/js/js_operators.asp
