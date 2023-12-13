@@ -1,0 +1,58 @@
+1. Add JavaScript Code inside the Head Section:
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        Add JavaScript Code inside Head Section
+    </title>
+ 
+    <script>
+        let js = "amazing";
+        if(js=="amazing") alert("JavaScript is fun");
+
+        console.log(40+8); // This output will be seen in console of the browser.
+    </script>
+</head>
+ 
+<body>
+    <h1>
+        Add JavaScript Code 
+        inside Head Section
+    </h1>
+</body>
+ 
+</html>
+
+
+2. Add JavaScript Code inside the Head Section (same way as above).
+
+3. (External JS:)
+
+index.html:
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        Add JavaScript Code inside Head Section
+    </title>
+ 
+    <script src="script.js"></script>
+</head>
+ 
+<body>
+    <h1>
+        Add JavaScript Code 
+        inside Head Section
+    </h1>
+</body>
+ 
+</html>
+
+script.js:
+let js = "amazing";
+        if(js=="amazing") alert("JavaScript is fun");
+
+        console.log(40+8); // This output will be seen in console of the browser.
