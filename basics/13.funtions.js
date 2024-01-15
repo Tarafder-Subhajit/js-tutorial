@@ -67,3 +67,25 @@ function returnSecondValue(getArray){
 }
  console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 500, 1000]));
+
+/*Another way to declare a function is to use expression funtion using a variable */
+const demo = function(){
+    
+}
+
+// ++++++++++++++++++ interesting point to notice ++++++++++++++++++
+
+
+console.log(addone(5)) //will not give error even if we have called function before the declaration.
+
+function addone(num){
+    return num + 1
+}
+
+
+
+addTwo(5) ////will give error if we have called function before the declaration because there is variable declaration.
+
+const addTwo = function(num){
+    return num + 2
+}
