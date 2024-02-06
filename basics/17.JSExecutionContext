@@ -1,0 +1,16 @@
+Link: https://www.youtube.com/watch?v=iLWTnMzWtj4&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP&index=3
+
+
+Everything is JS happens inside Execution Context. 
+It has 2 components.
+1. Memory Component: Here all the variables and fucntions are stored as key-value pair. This Component is also called variable environment.
+2. Code Component: Here code is executed one line at a time. This component is also called thread of execution.
+
+JS is a single synchronous single threaded language. 'Single Threaded' means JS can execute one line at a time. 'synchronous single threaded' means means JS can execute one line at a time at a specific order.
+
+Execution Context is created in 2 Phases.
+1. Memory Creation Phase: JS allocates memory to all the variables and funtions. Ex: if code has "n=3", then in this phase, JS will allocate "n:undefined" in the memory component. In case of funtion, whole funtion code is copied in memory component.
+2. Code execution Phase: for "n:undefined" -> "n:2" will be allocated here.
+
+
+rest see the lecture from 5.56
